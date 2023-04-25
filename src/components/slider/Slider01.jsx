@@ -39,16 +39,14 @@ const SliderItem = props => (
                             <p className="sub-heading">{props.item.description}</p>
                             <div className="button-slider">
                                 <Link to="/explore-01"
-                                    className="sc-button btn-bordered-white style letter "><span>Explore
-                                        More</span></Link>
+                                    className="sc-button btn-bordered-white style letter "><span>Explore projects</span></Link>
                                 <Link to="/create-item"
-                                    className="sc-button btn-bordered-white style file"><span>Create
-                                        Now</span></Link>
+                                    className="sc-button btn-bordered-white style file"><span>Create</span></Link>
                             </div>
                         </div>
-                        <div className="slider-img">
+                        {/* <div className="slider-img">
                             <div className="img-home-1"><img src={props.item.img} alt="Bidzen" /></div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

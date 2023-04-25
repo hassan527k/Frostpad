@@ -518,8 +518,9 @@ blockquote .author::before {
 }
 
 .new-letter-content {
-    width  : 66%;
+    /* width  : 66%; */
     padding: 42px 0;
+    /* text-align: center; */
 }
 
 .new-letter-img {
@@ -600,11 +601,14 @@ blockquote .author::before {
 .new-letter-inner.style-2 {
     margin-bottom  : -100px;
     padding: 59px 73px 26px 70px;
+    justify-content: center;
+
 }
 
 .style-2 .new-letter-content {
-    width: 44%;
+    /* width: 44%; */
     padding: 0;
+    text-align: center;
 }
 
 .style-2 .new-letter-img {
@@ -1726,6 +1730,7 @@ blockquote .author::before {
 .sc-wallet.style-2 .content {
     padding       : 0 30px;
     padding-bottom: 30px;
+    padding-top: 45px;
 }
 
 .sc-wallet.style-2 .content h5 {
@@ -2122,7 +2127,8 @@ blockquote .author::before {
 
 .form-create-item-content {
     display      : flex;
-    box-shadow   : 4px 4px 60px rgba(99, 69, 237, 0.15);
+    justify-content: center;
+    /* box-shadow   : 4px 4px 60px rgba(99, 69, 237, 0.15); */
     border-radius: 12px;
     overflow     : hidden;
 }
@@ -2462,7 +2468,7 @@ blockquote .author::before {
 }
 
 .slider-inner {
-    justify-content: space-between;
+    justify-content: center;
     padding: 60px 12.7% 78px 19.3%;
 }
 
@@ -2471,13 +2477,15 @@ blockquote .author::before {
 }
 
 .slider-inner .slider-content{
-    width: 45.6%;
+    width: 85%;
     padding-top: 113px;
+    text-align: center  ;
 }
 
 .slider-inner .slider-content .heading,
 .slider-inner .slider-content .sub-heading {
     color: #fff;
+    
 }
 
 .slider-inner .slider-content .heading {
@@ -2493,6 +2501,8 @@ blockquote .author::before {
     padding-right: 10%;
     margin-bottom: 40px;
 }
+
+
 
 .slider-inner .slider-content .button-slider .sc-button.btn-bordered-white {
     padding: 19px 35px;

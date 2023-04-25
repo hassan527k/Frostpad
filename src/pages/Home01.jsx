@@ -12,18 +12,21 @@ import TrendingCollections from '../components/layouts/home/TrendingCollections'
 import dataTrendingCollections from '../assets/fake-data/dataTrendingCollections'
 import Category from '../components/layouts/home/Category';
 import dataCategory from '../assets/fake-data/dataCategory'
-import Footer from '../components/footer/Footer';
+import Footer from '../components/footer/FooterStyle2';
 import { Newsletters } from '../components/layouts/home/Newsletters';
+import Create from '../components/layouts/home02/Create';
+import dataCreate from '../assets/fake-data/dataCreate'
 
 const Home01 = () => {
   return <div className='home-1'>
       <Header />
       <Slider01 data={dataSlider} />
-      <LiveAution data={dataLiveAution} />
+      <Create data={dataCreate} />
+      {/* <LiveAution data={dataLiveAution} />
       <LatestCollections data={dataCollections} />
       <BestSeller data={dataBestSeller} />
       <TrendingCollections data={dataTrendingCollections} />
-      <Category data={dataCategory} />
+      <Category data={dataCategory} /> */}
       <Newsletters />
       <Footer />
   </div>;

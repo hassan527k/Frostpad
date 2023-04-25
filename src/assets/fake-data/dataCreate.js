@@ -6,24 +6,24 @@ import img4 from '../images/icon/icon-13.svg'
 const dataCreate = [
     {
         img: img1,
-        title: 'Set Up Your Wallet',
-        desc: 'Sed ut perspiciatis unde omnste natus error sit voluptatem'
+        title: '$43M',
+        desc: 'Raised liquiduty'
     },
     {
         img: img2,
-        title: 'Create Your Collection',
-        desc: 'Sed ut perspiciatis unde omnste natus error sit voluptatem'
+        title: '143',
+        desc: 'Projects kickstarted'
     },
     {
         img: img3,
-        title: 'Add Your NFTs',
-        desc: 'Sed ut perspiciatis unde omnste natus error sit voluptatem',
+        title: '36751',
+        desc: 'Total participants',
         class:'mg-bt-0'
     },
     {
         img: img4,
-        title: 'List Them For Sale',
-        desc: 'Sed ut perspiciatis unde omnste natus error sit voluptatem',
+        title: '7684 BNB',
+        desc: 'Total value locked',
         class:'mg-bt-0'
     },  
 ]

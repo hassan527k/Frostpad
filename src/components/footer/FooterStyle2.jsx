@@ -6,45 +6,45 @@ import logo2x from '../../assets/images/logo/logo_dark@2x.png'
 
 const FooterStyle2 = () => {
     const [dataSocial] = useState([
-        {
-            icon: 'fab fa-facebook-f'
-        },
-        {
-            icon: 'fab fa-twitter'
-        },
-        {
-            icon: 'fab fa-linkedin-in'
-        },
-        {
-            icon: 'fab fa-youtube'
-        },
+        // {
+        //     icon: 'fab fa-facebook-f'
+        // },
+        // {
+        //     icon: 'fab fa-twitter'
+        // },
+        // {
+        //     icon: 'fab fa-linkedin-in'
+        // },
+        // {
+        //     icon: 'fab fa-youtube'
+        // },
     ])
 
     const [dataLinkMarket] = useState([
-        {
-            title: 'Gaming',
-            link: '/item'
-        },
-        {
-            title: 'Product',
-            link: '/item'
-        },
-        {
-            title: 'All NFTs',
-            link: '/item'
-        },
-        {
-            title: 'Social Network',
-            link: '/item'
-        },
-        {
-            title: 'Domain Names',
-            link: '/item'
-        },
-        {
-            title: 'Collectibles',
-            link: '/item'
-        },
+        // {
+        //     title: 'Gaming',
+        //     link: '/item'
+        // },
+        // {
+        //     title: 'Product',
+        //     link: '/item'
+        // },
+        // {
+        //     title: 'All NFTs',
+        //     link: '/item'
+        // },
+        // {
+        //     title: 'Social Network',
+        //     link: '/item'
+        // },
+        // {
+        //     title: 'Domain Names',
+        //     link: '/item'
+        // },
+        // {
+        //     title: 'Collectibles',
+        //     link: '/item'
+        // },
     ])
 
 
@@ -78,10 +78,10 @@ const FooterStyle2 = () => {
                         <div className="col-lg-10 col-md-12 col-12">
                             <div className="widget widget-logo">
                                 <div className="logo-footer" id="logo-footer">
-                                    <Link to="/">
+                                    {/* <Link to="/">
                                         <img id="logo_footer" src={logo} alt="nft-gaming"
                                             srcSet={logo2x} />
-                                    </Link>
+                                    </Link> */}
                                 </div>
                             </div>
                             <div className="widget widget-menu menu-marketplace style-2">
@@ -96,7 +96,7 @@ const FooterStyle2 = () => {
                         </div>
                         <div className="col-lg-2 col-md-12 col-12">
                             <div className="widget-social style-2">
-                                <h5 className="title-widget">Follow Us</h5>
+                                {/* <h5 className="title-widget">Follow Us</h5> */}
                                 <ul>
                                 {
                                     dataSocial.map((item,index)=> (
@@ -109,14 +109,14 @@ const FooterStyle2 = () => {
                     </div>
                 </div>
             </footer>
-            <div className="bottom">
+            {/* <div className="bottom">
                 <div className="container">
                     <div className="bottom-inner">
                         Copyright © 2022 Bidzen | NFT Marketplace React Js Template. Designed by <a
                             href="https://themeforest.net/user/themesflat/portfolio"> Themesflat</a>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {
                 isVisible && 
                 <Link onClick={scrollToTop}  to='#' id="scroll-top"></Link>

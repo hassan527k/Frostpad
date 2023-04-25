@@ -6,10 +6,10 @@ export const Newsletters = () => {
             <div className="container">
                 <div className="new-letter-inner style-2 flex">
                     <div className="new-letter-content">
-                        <h3 className="heading">Newsletters</h3>
-                        <p className="sub-heading">Most popular gaming digital nft market place </p>
+                        <h3 className="heading">Disclaimer</h3>
+                        <p className="sub-heading">The information provided shall not in any way constitute a recommendation as to whether you should invest in any product discussed. We accept no liability for any loss occasioned to any person acting or refraining from action as a result of any material provided or published.</p>
                     </div>
-                    <div className="new-letter-img">
+                    {/* <div className="new-letter-img">
                         <div className="form-subcribe">
                             <form id="subscribe-form" action="#" method="GET" acceptCharset="utf-8"
                                 className="form-submit">
@@ -19,7 +19,7 @@ export const Newsletters = () => {
                                     className="sc-button style letter style-2"><span>Browse More</span> </button>
                             </form>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

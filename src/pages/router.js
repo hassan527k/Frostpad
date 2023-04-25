@@ -9,10 +9,15 @@ import Blog from './Blog'
 import BlogDetails from './BlogDetails'
 import Authors from './Authors'
 import ConnectWallet from './ConnectWallet'
-import CreateItem from './CreateItem'
+import CreatePresale from './CreatePresale'
 import Login from './Login'
 import Register from './Register'
 import Contact from './Contact'
+import CreateAirdrop from './CreateAirdrop'
+import CreateLock from './CreateLock'
+import RequestAudit from './RequestAudit'
+import RequestKYC from './RequestKYC'
+import ReportPresale from './ReportPresale'
 
 const routes = [
     { path: '/', component: <Home01 />},
@@ -26,10 +31,16 @@ const routes = [
     { path: '/blog-details', component: <BlogDetails />},
     { path: '/authors', component: <Authors />},
     { path: '/connect-wallet', component: <ConnectWallet />},
-    { path: '/create-item', component: <CreateItem />},
+    { path: '/create-presale', component: <CreatePresale />},
     { path: '/login', component: <Login />},
     { path: '/register', component: <Register />},
-    { path: '/contact', component: <Contact />}
+    { path: '/contact', component: <Contact />},
+    { path: '/create-airdrop', component: <CreateAirdrop />},
+    { path: '/create-lock', component: <CreateLock />},
+    { path: '/report-presale', component: <ReportPresale />},
+    { path: '/request-audit', component: <RequestAudit />},
+    { path: '/request-kyc', component: <RequestKYC />}
+
 ]
 
 export default routes;
